@@ -1,4 +1,15 @@
-Man morsec()
+## Small Morse interpretor
+******************************************************
+* to use;                                            *
+*                                                    *
+* $> ./morse "Message (ex): .- .-.. . -..- .. ..."   *
+* Press enter. (Si jamais mdr)                       *
+*                                                    *
+* Morse_inter will returns 0;                        *
+* but, if the system call fails, then it returns -1. *
+******************************************************
+
+### Man morsec()
 ----------------------------------------------------------------------------------
 Morse ou > morsec()
 Traduit une string en entree ecrite en morse vers un alphabet classique.
@@ -26,7 +37,9 @@ Si le programme est lance avec 3 argument $> ./morsec -r "LOLILOL"
 
 
 
-Alyovano
+#### Alyovano
+
+
 -------------------------------------------------------------------------------------
 
 
@@ -63,12 +76,3 @@ Z --..
 . .-.-
 \n .....
 
-******************************************************
-* to use;                                            *
-*                                                    *
-* $> ./morse "Message (ex): .- .-.. . -..- .. ..."   *
-* Press enter. (Si jamais mdr)                       *
-*                                                    *
-* Morse_inter will returns 0;                        *
-* but, if the system call fails, then it returns -1. *
-******************************************************
